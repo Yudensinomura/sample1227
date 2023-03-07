@@ -1,11 +1,14 @@
-let person =  {
+let obj =  {
     name: "john",
     age: 30
 };
 
+let map= new Map(Object.entries(obj));
 
 
-let lessonList = new Map(Object.entries(person));
+console.log( map.get('age'));
 
 
-console.log( lessonList.get('age'));
+map .forEach( (value, Key) => {
+    console.log(`${Key}: ${value}`);
+}) ;
