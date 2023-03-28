@@ -1,3 +1,3 @@
-let str = "Hello";
+let str = "red roin vaiorensu rush";
 
 console.log( str.toUpperCase() ); 
