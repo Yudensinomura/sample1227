@@ -1,7 +1,9 @@
-try{
-    console.log('試し実行開始');
+try {
+    console.log('start of try runs');
+    lalala;
 
-    console.log('試し実行終了')
+    console.log('End of try never reached');
 }catch(err){
-    console.log('エラーがないため無視します。');
+    console.log(err.name);
+    console.log(err.message);
 }
