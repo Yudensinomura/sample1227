@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head></head>
+    <body>
+        <script>
+            function sayHi(){
+                alert("こんにちは");
+            }
+
+            window.sayHi();
+            alert(window.innerHeight);
+
+            document.body.style.background = 'いい天気ですね';
+
+            setTimeout(  () => document.body.style.background = '', 1000);
+
+            alert(location.hraf);
+            if(confirm("google map に行きますか？")){
+                location.href = 'https://www.google.com/maps/@35.4320384,133.3395456,14z?entry=ttu';
+            }
+        </script>
+    </body>
+</html>
